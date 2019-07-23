@@ -1,0 +1,39 @@
+{
+    "name": "node-red-social-aggregator",
+	"version": "1.0.0",
+	"author": "developersteve",
+    "description": "Node-red node for multiple social media social aggregation",
+    "node-red": {
+        "nodes": {
+            "social-aggregator": "social-aggregator.js"
+        }
+    },
+    "dependencies": {
+        "riv-us": "2.0.4",
+        "es6-promise": "^3.2.1",
+        "fakeredis": "^1.0.3",
+        "feed-read": "0.0.1",
+        "moment": "^2.13.0",
+        "redis": "^2.6.0-2",
+        "twitter": "^1.3.0",
+        "winston": "^2.2.0",
+        "babel-core": "^6.14.0",
+        "babel-eslint": "^7.0.0",
+        "babel-loader": "^6.2.5",
+        "babel-helpers": "^6.14.0",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-syntax-async-functions": "^6.13.0",
+        "babel-plugin-transform-async-to-generator": "^6.16.0",
+        "babel-plugin-transform-object-rest-spread": "^6.22.0",
+        "babel-plugin-transform-runtime": "^6.15.0",
+        "babel-preset-es2015": "^6.9.0",
+        "chai": "^3.5.0",
+        "mocha": "^2.4.5",
+        "mocha-junit-reporter": "^1.11.1",
+        "nock": "^8.0.0",
+        "proxyquire": "^1.7.4",
+        "rewire": "^2.5.2",
+        "webpack": "^1.14.0",
+        "webpack-node-externals": "^1.5.4"
+    }    
+}
