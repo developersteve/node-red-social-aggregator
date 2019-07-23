@@ -1,7 +1,7 @@
 # node-red-social-aggregator
 Multiple social platform aggregator using the rivus lib on node-red. The input object into the node-red node can be used to retreve user feeds from a multiple of sources with different keys (if needed). This makes the aggregation and normalisation of data easier as it retrieves and attempts to handle each of the below sources in a number of different ways. 
 
-###Node Input 
+### Node Input 
 
 To load send an array object to the node
 
@@ -22,7 +22,7 @@ To load send an array object to the node
 ]
 ```
 
-####Input types
+#### Input types
 Example of input types and how to load them, these can be multiples and remember to watch the rate-limits when dealing with some of the API's (im looking at you twitter).
 
 ```
@@ -65,7 +65,7 @@ Example of input types and how to load them, these can be multiples and remember
     ]
 ```
 
-###Node Output
+### Node Output
 
 Output response will be via ```msg.payload``` which should return something like the following 
 
