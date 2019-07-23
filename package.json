@@ -9,6 +9,10 @@
             "social-aggregator": "social-aggregator.js"
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developersteve/node-red-social-aggregator.git"
+    },
     "dependencies": {
         "riv-us": "2.0.4",
         "es6-promise": "^3.2.1",
