@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"author": "developersteve",
     "description": "Node-red node for multiple social media social aggregation",
+    "keywords": [ "node-red" ],
     "node-red": {
         "nodes": {
             "social-aggregator": "social-aggregator.js"
