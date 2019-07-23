@@ -1,6 +1,6 @@
 {
     "name": "node-red-social-aggregator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "developersteve",
     "description": "Node-red node for multiple social media social aggregation",
     "keywords": [
